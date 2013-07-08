@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.marcussu.battcity"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Battery City</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Application that tracks the battery level.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://www.marcussu.com" email="marcussu@marcussu.com">
+        Marcus Su
     </author>
 
     <!--
