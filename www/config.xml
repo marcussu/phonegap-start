@@ -22,8 +22,8 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/battery" />
-    <feature id="blackberry.app"          required="true" version="1.0.0.0" />
-    <feature id="blackberry.app.event"    required="true" version="1.0.0.0" />
+    <feature id="blackberry.app" required="true" version="1.0.0.0" />
+    <feature id="blackberry.app.event" required="true" version="1.0.0.0" />
     <feature id="blackberry.system.event" required="true" version="1.0.0.0" />
 
     <!--
