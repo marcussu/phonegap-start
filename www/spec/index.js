@@ -43,6 +43,15 @@ describe('app', function() {
         });
     });
 
+	// Added by Marcus 29/09/2013
+	describe('onBatteryStatus', function() {
+        it('should report that it fired', function() {
+            spyOn(app, 'receivedEvent');
+            app.onBatteryStatus();
+            expect(app.receivedEvent).toHaveBeenCalledWith('batterystatus');
+        });
+    });
+	
     describe('receivedEvent', function() {
         beforeEach(function() {
             var el = document.getElementById('stage');
