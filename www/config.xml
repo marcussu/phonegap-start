@@ -57,7 +57,7 @@
     -->
     <gap:plugin name="Battery" value="org.apache.cordova.BatteryListener"/> <!-- Android battery listener -->
     <!-- <gap:plugin name="Battery" value="org.apache.cordova.battery.Battery" /> Blackberry battery listener -->
-    <gap:plugin name="Battery" value="CDVBattery" /> <!-- iOS battery listener -->
+    <!-- <gap:plugin name="Battery" value="CDVBattery" /> iOS battery listener -->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
