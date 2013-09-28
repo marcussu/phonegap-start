@@ -55,7 +55,7 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-    <gap:plugin name="Battery" value="com.phonegap.BatteryListener"/> <!-- Android battery listener -->
+    <gap:plugin name="Battery" value="org.apache.cordova.BatteryListener"/> <!-- Android battery listener -->
     <gap:plugin name="Battery" value="org.apache.cordova.battery.Battery" /> <!-- Blackberry battery listener -->
     <gap:plugin name="Battery" value="CDVBattery" /> <!-- iOS battery listener -->
 
